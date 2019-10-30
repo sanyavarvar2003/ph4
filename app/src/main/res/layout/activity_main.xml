@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity"
+    android:background="@drawable/suns">
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="@drawable/button_normal"
+        android:text="Теплота"
+        android:layout_margin="10dp"
+        android:onClick="newq"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:text="Электрический ток"
+        android:background="@drawable/button_normal"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:text="Давление"
+        android:background="@drawable/button_normal"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:text="Сила Архимеда"
+        android:background="@drawable/button_normal"
+        android:layout_margin="10dp"/>
+
+
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:text="Движение"
+        android:background="@drawable/button_normal"
+        android:layout_margin="10dp"/>
+
+
+</LinearLayout>
+
