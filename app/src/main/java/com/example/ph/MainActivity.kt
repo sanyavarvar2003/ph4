@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
     fun newq (v: View){
 
 
-        val intent = Intent(this@MainActivity, Main2Activity::class.java)
+        val intent = Intent(this@MainActivity, Main3Activity::class.java)
         startActivity(intent)
     }
 

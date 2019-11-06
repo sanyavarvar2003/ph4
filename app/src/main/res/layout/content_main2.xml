@@ -16,7 +16,11 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="тут будет какая-то важная информация"/>
+            android:text="Нагрев — искусственный либо естественный процесс повышения температуры
+             материала/тела. Измеряется в Джоулях. с - удельная теплоёмкость, m - масса нагреваемого,
+              t - изменение температуры "
+            android:textSize="20dp"/>
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
