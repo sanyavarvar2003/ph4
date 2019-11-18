@@ -17,10 +17,7 @@ class Main3Activity : AppCompatActivity() {
         setContentView(R.layout.activity_main3)
         setSupportActionBar(toolbar)
 
-        fab.setOnClickListener { view ->
-            Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                .setAction("Action", null).show()
-        }
+
     }
     fun oncl (v : View) {
         var  aa   = in1.text.toString().toFloat()

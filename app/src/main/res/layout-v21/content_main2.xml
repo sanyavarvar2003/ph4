@@ -71,12 +71,13 @@
     </LinearLayout>
 
     <Button
-        style="@style/Widget.AppCompat.Button"
+        style="@android:style/Widget.Material.Light.Button.Inset"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ellipsize="middle"
         android:onClick="on"
-        android:text="Посчитать" />
+        android:text="Посчитать"
+        />
     <TextView
         android:id="@+id/output"
         android:layout_width="wrap_content"
