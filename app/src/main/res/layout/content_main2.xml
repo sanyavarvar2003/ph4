@@ -17,7 +17,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Нагрев — искусственный либо естественный процесс повышения температуры
-материала/тела. Измеряется в Джоулях. с - удельная теплоёмкость, m - масса нагреваемого,
+             материала/тела. Измеряется в Джоулях. с - удельная теплоёмкость, m - масса нагреваемого,
               t - изменение температуры "
             android:textSize="20dp"/>
 
@@ -77,8 +77,31 @@
         android:ellipsize="middle"
         android:onClick="on"
         android:text="Посчитать" />
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="t="/>
+        <EditText
+        android:id="@+id/input4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    </LinearLayout>
+
     <TextView
         android:id="@+id/output"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="on"
+
+        android:text="Посчитать" />
 </LinearLayout>

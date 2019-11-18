@@ -19,15 +19,14 @@
         android:layout_margin="10dp"
         android:onClick="newq"/>
 
+
     <Button
         android:id="@+id/button2"
         android:layout_width="match_parent"
         android:layout_height="90dp"
-        android:text="Электрический ток"
+        android:layout_margin="10dp"
         android:background="@drawable/button_normal"
-        android:layout_margin="10dp"/>
-
-
+        android:text="Электрический ток" />
 
     <Button
         android:id="@+id/button4"
