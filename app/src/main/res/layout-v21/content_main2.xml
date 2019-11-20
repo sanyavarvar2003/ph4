@@ -34,7 +34,7 @@
            android:layout_width="wrap_content"
            android:layout_height="wrap_content"
            android:textSize="20dp"
-           android:text="C="/>
+           android:text="Q="/>
        <EditText
            android:id="@+id/input1"
            android:layout_width="wrap_content"
@@ -49,7 +49,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="20dp"
-        android:text="m="/>
+        android:text="c="/>
     <EditText
         android:id="@+id/input2"
         android:layout_width="wrap_content"
@@ -63,11 +63,25 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="20dp"
-            android:text="t="/>
+            android:text="m="/>
         <EditText
         android:id="@+id/input3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="t="/>
+        <EditText
+            android:id="@+id/input4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
     </LinearLayout>
 
     <Button
