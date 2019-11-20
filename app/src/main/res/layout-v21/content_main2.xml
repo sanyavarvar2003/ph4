@@ -7,15 +7,17 @@
     android:orientation="vertical"
     android:gravity="center"
     tools:context=".Main2Activity"
-    android:background="@drawable/phy">
+    android:background="@drawable/psdasdsa">
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Нагревание"
+        android:textColor="#000000"
         android:textSize="50dp"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textColor="#000000"
             android:text="Нагрев — искусственный либо естественный процесс повышения температуры
 материала/тела. Измеряется в Джоулях. с - удельная теплоёмкость, m - масса нагреваемого,
               t - изменение температуры "
@@ -25,6 +27,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="40dp"
+    android:textColor="#000000"
         android:text="Q=cmt"/>
    <LinearLayout
        android:orientation="horizontal"
@@ -34,10 +37,12 @@
            android:layout_width="wrap_content"
            android:layout_height="wrap_content"
            android:textSize="20dp"
+           android:textColor="#000000"
            android:text="Q="/>
        <EditText
+           android:textColor="#000000"
            android:id="@+id/input1"
-           android:layout_width="wrap_content"
+           android:layout_width="match_parent"
            android:layout_height="wrap_content"/>
 
    </LinearLayout>

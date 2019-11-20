@@ -7,7 +7,7 @@
     tools:context=".Main4Activity"
     android:orientation="vertical"
     android:gravity="center"
-    android:background="@drawable/phy">
+    android:background="@drawable/psdasdsa">
 
     <TextView
         android:layout_width="203dp"
