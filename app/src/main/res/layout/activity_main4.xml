@@ -13,7 +13,8 @@
         android:layout_width="203dp"
         android:layout_height="124dp"
         android:layout_gravity=""
-        android:text="ВЫБЕРИТЕ ТЕМУ:"/>
+        android:text="ВЫБЕРИТЕ ТЕМУ:"
+        android:textSize="30dp" />
 
     <LinearLayout
     android:layout_width="match_parent"
@@ -22,13 +23,13 @@
         android:layout_width="210dp"
         android:layout_height="210dp"
         android:id="@+id/ddd"
-        android:text="кнопка 1"
+        android:text="кальултор содержит формулы по теме'нагревание':"
         android:onClick="ne"/>
     <Button
         android:layout_width="210dp"
         android:layout_height="210dp"
         android:id="@+id/ddd1"
-        android:text="кнопка 2"/>
+        android:text="кальултор содержит формулы по теме'нагревание'"/>
 </LinearLayout>
 <LinearLayout
     android:layout_width="match_parent"
@@ -38,13 +39,13 @@
         android:layout_width="210dp"
         android:layout_height="210dp"
         android:id="@+id/ddd3"
-        android:text="кнопка 3"/>
+        android:text="кальултор содержит формулы по теме'нагревание'"/>
 
     <Button
         android:layout_width="210dp"
         android:layout_height="210dp"
         android:id="@+id/ddd4"
-        android:text="кнопка 4"/>
+        android:text="кальултор содержит формулы по теме'нагревание'"/>
 </LinearLayout>
 
 </LinearLayout>
