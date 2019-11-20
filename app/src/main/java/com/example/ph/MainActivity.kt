@@ -22,6 +22,9 @@ class MainActivity : AppCompatActivity() {
         val intent = Intent(this, Main2Activity::class.java)
         startActivity(intent)
     }
-
+    fun newq1 (v: View){
+        val intent1 = Intent(this, Main5Activity::class.java)
+        startActivity(intent1)
+    }
 }
 
