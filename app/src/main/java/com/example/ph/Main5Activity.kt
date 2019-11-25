@@ -19,6 +19,10 @@ class Main5Activity : AppCompatActivity() {
             val intent2 = Intent(this, Main6Activity::class.java)
             startActivity(intent2)
         }
+    fun nw (v: View){
+        val intent2 = Intent(this, MainzirkelActivity::class.java)
+        startActivity(intent2)
+    }
 
 
 }

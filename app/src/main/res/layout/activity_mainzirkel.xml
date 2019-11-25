@@ -20,7 +20,7 @@
         android:layout_marginLeft="10dp"
         android:layout_marginTop="10dp"
         android:text="Закон Архимеда: На тело, погружённое в жидкость (или газ),действует выталкивающая сила, равная весу жидкости (газа),вытесненной телом
-        Увеличение гидростатического давления по мере погружения в жидкость или газ является причиной возникновения выталкивающей силы: Fвыт = F1 – F2"/>
+        "/>
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
