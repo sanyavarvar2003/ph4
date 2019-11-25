@@ -12,35 +12,27 @@ class MainkuliActivity : AppCompatActivity() {
         setContentView(R.layout.activity_mainkuli)
     }
     fun on (v : View) {
-        var v: Float = 0f
+        var v1: Float = 0f
+
         if (input7.text.toString() == "") {
             var a = input5.text.toString().toFloat()
-            var b = input7.text.toString().toFloat()
-            var d = input8.text.toString().toFloat()
-            v = a / (b * d)
-        }
-        if (input8.text.toString() == "") {
             var b = input6.text.toString().toFloat()
-            var a = input5.text.toString().toFloat()
-            var c = input7.text.toString().toFloat()
-            v = a / (c * b)
+            v1 = a / (b * 9.8f)
         }
 
         if (input6.text.toString() == "") {
             var a = input5.text.toString().toFloat()
-            var d = input8.text.toString().toFloat()
             var c = input7.text.toString().toFloat()
-            v = a / (c * d)
+            v1 = a / (c * 9.8f)
         }
         if (input5.text.toString() == "") {
             var b = input6.text.toString().toFloat()
             var c = input7.text.toString().toFloat()
-            var d = input8.text.toString().toFloat()
-            v = c * b * d
+            v1 = c * b * 9.8f
         }
 
 
-        output.setText(v.toString())
+        output.setText(v1.toString())
 
     }
     }
