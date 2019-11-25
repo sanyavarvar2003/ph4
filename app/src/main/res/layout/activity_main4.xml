@@ -29,7 +29,8 @@
         android:layout_width="210dp"
         android:layout_height="210dp"
         android:id="@+id/ddd1"
-        android:text="кальултор содержит формулы по теме'нагревание'"/>
+        android:text="кальултор содержит формулы по теме'нагревание'"
+        android:onClick="nc"/>
 </LinearLayout>
 <LinearLayout
     android:layout_width="match_parent"
