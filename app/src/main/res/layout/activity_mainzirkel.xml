@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainzirkelActivity"
+    android:background="@drawable/psdasdsa"
+    >
+
+<TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:background="#F5FFFA"
+        android:textSize="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Закон Архимеда: На тело, погружённое в жидкость (или газ),действует выталкивающая сила, равная весу жидкости (газа),вытесненной телом
+        Увеличение гидростатического давления по мере погружения в жидкость или газ является причиной возникновения выталкивающей силы: Fвыт = F1 – F2"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/arhimed"/>
+</LinearLayout>
