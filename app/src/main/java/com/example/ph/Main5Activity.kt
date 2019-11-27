@@ -15,7 +15,7 @@ class Main5Activity : AppCompatActivity() {
         setContentView(R.layout.activity_main5)
         setSupportActionBar(toolbar)
     }
-        fun n (v: View){
+        fun ng (v: View){
             val intent2 = Intent(this, Main6Activity::class.java)
             startActivity(intent2)
         }

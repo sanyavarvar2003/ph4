@@ -92,10 +92,25 @@ g -  коэффициент свободного падения, всегда р
         android:layout_height="wrap_content"
         android:onClick="on"
         android:text="Посчитать" />
-    <TextView
-        android:id="@+id/output"
-        android:layout_width="wrap_content"
-        android:textColor="#000000"
-        android:layout_height="wrap_content"/>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="25dp"
+            android:text="Ответ: "/>
+
+        <TextView
+            android:id="@+id/output"
+            android:layout_width="wrap_content"
+            android:textColor="#000000"
+            android:textSize="25dp"
+            android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
 </LinearLayout>
