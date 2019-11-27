@@ -18,9 +18,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="#000000"
-        android:text="Нагрев — искусственный либо естественный процесс повышения температуры
-             материала/тела. Измеряется в Джоулях. с - удельная теплоёмкость, m - масса нагреваемого,
-              t - изменение температуры "
+        android:text="Закон (Сила) Архимеда — На тело, погруженное в жидкость или газ, действует выталкивающая сила,
+         равная весу вытесненной этим телом жидкости или газа. Измеряется в Ньютонах, p - плотность, измеряется в килограммах/метр кубический,
+g -  коэффициент свободного падения, всегда равен 9.8, V - объём, измеряется в метрах кубических. "
         android:background="#F5FFFA"
         android:textSize="20dp"/>
 
@@ -84,17 +84,17 @@
             android:layout_height="wrap_content"/>
     </LinearLayout>
 
-    <TextView
-        android:id="@+id/output"
-        android:layout_width="wrap_content"
-        android:textColor="#000000"
-        android:layout_height="wrap_content"/>
 
     <Button
         style="@android:style/Widget.Material.Light.Button.Inset"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="on"
-
         android:text="Посчитать" />
+    <TextView
+        android:id="@+id/output"
+        android:layout_width="wrap_content"
+        android:textColor="#000000"
+        android:layout_height="wrap_content"/>
+
 </LinearLayout>
