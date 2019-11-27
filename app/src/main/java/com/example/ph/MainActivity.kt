@@ -12,19 +12,24 @@ import android.content.Intent
 class MainActivity : AppCompatActivity() {
 
 
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
     }
-    fun newq (v: View){
+
+    fun newq(v: View) {
         val intent = Intent(this, Main4Activity::class.java)
         startActivity(intent)
     }
-    fun newq1 (v: View){
+
+    fun newq1(v: View) {
         val intent1 = Intent(this, Main5Activity::class.java)
         startActivity(intent1)
     }
+
+    fun daad (v: View) {
+        val intent7 = Intent(this, Main12Activity::class.java)
+        startActivity(intent7)}
 }
 
