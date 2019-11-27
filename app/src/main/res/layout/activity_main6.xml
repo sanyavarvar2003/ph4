@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Main6Activity"
-    android:background="@drawable/psdasdsa">
+    android:background="@drawable/dddp1">
+
 <TextView
     android:layout_width="match_parent"
     android:layout_height="wrap_content"

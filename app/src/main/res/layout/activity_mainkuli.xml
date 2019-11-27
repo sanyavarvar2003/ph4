@@ -7,11 +7,12 @@
     android:orientation="vertical"
     android:gravity="center"
     tools:context=".MainkuliActivity"
-    android:background="@drawable/psdasdsa">
-    <TextView
+    android:background="@drawable/dddp1">
+
+<TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Нагревание"
+        android:text="Сила Архимеда"
         android:textColor="#000000"
         android:textSize="50dp"/>
     <TextView

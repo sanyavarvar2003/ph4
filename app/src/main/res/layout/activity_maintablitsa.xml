@@ -7,7 +7,8 @@
     tools:context=".MaintablitsaActivity"
     android:orientation="vertical"
     android:gravity="center"
-    android:background="@drawable/psdasdsa">
+    android:background="@drawable/dddp1">
+
 
     <TextView
         android:layout_width="match_parent"
