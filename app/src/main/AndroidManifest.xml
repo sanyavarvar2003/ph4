@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Main12Activity"></activity>
+        <activity
+            android:name=".tablica2"
+            android:label="@string/title_activity_tablica2"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".Main12Activity" />
         <activity android:name=".MaintablitsaActivity" />
         <activity android:name=".MainzirkelActivity" />
         <activity android:name=".MainkuliActivity" />

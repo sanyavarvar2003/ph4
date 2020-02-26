@@ -15,4 +15,8 @@ class Main12Activity : AppCompatActivity() {
         val intent5 = Intent(this, MaintablitsaActivity::class.java)
         startActivity(intent5)
     }
+    fun nee1 (v: View){
+        val intent5 = Intent(this, tablica2::class.java)
+        startActivity(intent5)
+    }
 }
